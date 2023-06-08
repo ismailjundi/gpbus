@@ -1,16 +1,24 @@
 let map;
+let marker;
+let infowindow;
 const myLatLng = { lat: -6.925961686291945, lng: 107.77467736786926 };
 
-function initMap() {
-    map = new google.maps.Map(document.getElementById("map-canvas"), {
-        zoom: 15,
-        center: myLatLng,
-        disableDefaultUI: true,
-    });
-}
+map = new google.maps.Map(document.getElementById("map-canvas"), {
+    zoom: 15,
+    center: myLatLng,
+    disableDefaultUI: true,
+});
 
-// initMap  
-window.initMap = initMap;
+marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Bus Location #1',
+    icon: {
+        url: "img/bus icon.png",
+    }
+});
+
+infowindow = new google.maps.InfoWindow()
 
 // Inisialisasi Firebase
 let firebaseConfig = {
@@ -34,19 +42,10 @@ locationRef.on('value', function (snapshot) {
 
     // posisi bus
     let busPos = new google.maps.LatLng(location.GPS.f_latitude, location.GPS.f_longitude);
+    marker.setPosition(busPos);
+    // map.setCenter(busPos);
 
-    // Tampilkan bus marker di lokasi
-    let marker = new google.maps.Marker({
-        position: busPos,
-        map: map,
-        title: 'Bus Location #1',
-        icon: {
-            url: "img/bus icon.png",
-        }
-    });
-
-    //infowindow penumpang
-    let infowindow = new google.maps.InfoWindow()
+    //infowindow bus
     infowindow.setContent('<div>' + '<h3>' + 'Jumlah Penumpang:' + '<br>' + location.ULTRASONIC.counter + '/10' + '</h3>' + '</div>')
     infowindow.setPosition(busPos)
     infowindow.open(map, marker)
@@ -54,7 +53,7 @@ locationRef.on('value', function (snapshot) {
         infowindow.open(map, marker);
     });
 
-    //menampilkan posisi user dan marker user
+    //posisi user
     function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
