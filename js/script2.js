@@ -43,7 +43,6 @@ locationRef.on('value', function (snapshot) {
     // posisi bus
     let busPos = new google.maps.LatLng(location.GPS.f_latitude, location.GPS.f_longitude);
     marker.setPosition(busPos);
-    // map.setCenter(busPos);
 
     //infowindow bus
     infowindow.setContent('<div>' + '<h3>' + 'Jumlah Penumpang:' + '<br>' + location.ULTRASONIC.counter + '/10' + '</h3>' + '</div>')
