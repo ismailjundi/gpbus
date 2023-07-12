@@ -22,14 +22,15 @@ infowindow = new google.maps.InfoWindow()
 
 // Inisialisasi Firebase
 let firebaseConfig = {
-    apiKey: "AIzaSyB2R5xRSbMaq81zSPTKx2RKI93eXl13x4A",
-    authDomain: "gpbus-rtdb-02.firebaseapp.com",
-    databaseURL: "https://gpbus-rtdb-02-default-rtdb.firebaseio.com",
-    projectId: "gpbus-rtdb-02",
-    storageBucket: "gpbus-rtdb-02.appspot.com",
-    messagingSenderId: "721860032075",
-    appId: "1:721860032075:web:562b32f9a7189ebbf33fce",
-    measurementId: "G-ZMFR472TWT",
+    apiKey: "AIzaSyCXN_qLDgHSMOFUIN__fflQvjN46nqQnDg",
+    authDomain: "gpbus-bandung-01.firebaseapp.com",
+    databaseURL: "https://gpbus-bandung-01-default-rtdb.firebaseio.com",
+    projectId: "gpbus-bandung-01",
+    storageBucket: "gpbus-bandung-01.appspot.com",
+    messagingSenderId: "1030928034972",
+    appId: "1:1030928034972:web:6c7d9886fa117ea33b9159",
+    measurementId: "G-DSSLVRQEEX",
+    databaseURL: "https://gpbus-bandung-01-default-rtdb.firebaseio.com/",
 };
 firebase.initializeApp(firebaseConfig);
 let database = firebase.database();
