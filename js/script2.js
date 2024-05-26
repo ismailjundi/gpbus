@@ -35,6 +35,9 @@ let firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 let database = firebase.database();
 
+// lokasi user
+getLocation();
+
 // Ambil data lokasi dari Firebase Realtime Database
 let locationRef = database.ref('id-1');
 locationRef.on('value', function (snapshot) {
@@ -53,28 +56,28 @@ locationRef.on('value', function (snapshot) {
         infowindow.open(map, marker);
     });
 
-    //posisi user
-    function getLocation() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-        } else {
-            x.innerHTML = "Geolocation is not supported by this browser.";
-        }
-    }
-
-    function showPosition(position) {
-        let userPos = {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-        }
-        let marker2 = new google.maps.Marker({
-            position: userPos,
-            map: map,
-            title: 'Your Position',
-            icon: {
-                url: "img/user icon.png",
-            }
-        });
-    }
-    getLocation();
 });
+
+//posisi user
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    let userPos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+    }
+    let marker2 = new google.maps.Marker({
+        position: userPos,
+        map: map,
+        title: 'Your Position',
+        icon: {
+            url: "img/user icon.png",
+        }
+    });
+}
