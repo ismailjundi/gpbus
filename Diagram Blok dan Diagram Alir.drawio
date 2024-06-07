@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T08:39:45.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="IF1-LiU8J_Uheylpd8Sk" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T08:42:05.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Qpy0IYsCnKiXe9x1uNlq" version="24.3.1" type="github">
   <diagram name="Page-1" id="yJ0czsLKRwosrbQ-xXQm">
-    <mxGraphModel dx="391" dy="212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2200" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,31 +153,31 @@
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-22" target="3b_SdyXid0ChqGJSm0WQ-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-22" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-22" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="550" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-24" target="3b_SdyXid0ChqGJSm0WQ-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-24" value="Inisialisasi Sistem" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-24" value="Inisialisasi Sistem" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="670" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-26" target="3b_SdyXid0ChqGJSm0WQ-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-26" value="Lokasi GPS dan Perhitungan Ultrasonik" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-26" value="Lokasi GPS dan Perhitungan Ultrasonik" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="520" y="790" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-28" target="3b_SdyXid0ChqGJSm0WQ-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-28" value="Akuisisi data oleh mikrokontroler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-28" value="Akuisisi data oleh mikrokontroler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-30" target="3b_SdyXid0ChqGJSm0WQ-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-30" value="Pengiriman data ke mikrokontroler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-30" value="Pengiriman data ke mikrokontroler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-32" target="3b_SdyXid0ChqGJSm0WQ-35" edge="1">
@@ -190,7 +190,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-32" value="Pengiriman data ke &lt;i&gt;database&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-32" value="Pengiriman data ke &lt;i&gt;database&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-33" value="&lt;b&gt;YA&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-35" target="3b_SdyXid0ChqGJSm0WQ-37" edge="1">
@@ -203,16 +203,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-35" value="Database menerima data?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-35" value="Database menerima data?" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="830" y="780" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3b_SdyXid0ChqGJSm0WQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3b_SdyXid0ChqGJSm0WQ-37" target="3b_SdyXid0ChqGJSm0WQ-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-37" value="Proyeksi data ke website" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-37" value="Proyeksi data ke website" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="842.5" y="890" width="175" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3b_SdyXid0ChqGJSm0WQ-38" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3b_SdyXid0ChqGJSm0WQ-38" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="870" y="990" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
