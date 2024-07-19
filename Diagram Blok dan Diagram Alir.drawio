@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T06:31:37.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dNgq8IrtT1xbFcPu6Dj4" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T06:32:12.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="V4bm6eDEXMQawl1wNjdl" version="24.7.1" type="github">
   <diagram name="Page-1" id="yJ0czsLKRwosrbQ-xXQm">
-    <mxGraphModel dx="2200" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="518" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -307,7 +307,7 @@
         <mxCell id="d2ZIBK7g3pTTEtLVZII3-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d2ZIBK7g3pTTEtLVZII3-21" target="d2ZIBK7g3pTTEtLVZII3-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2ZIBK7g3pTTEtLVZII3-21" value="Count + dan Count - Hasil Transmisi Data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="d2ZIBK7g3pTTEtLVZII3-21" value="Penambahan dan Pengurangan Count Hasil Transmisi Data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="243.11" y="1870" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d2ZIBK7g3pTTEtLVZII3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="d2ZIBK7g3pTTEtLVZII3-16" target="d2ZIBK7g3pTTEtLVZII3-18" edge="1">
